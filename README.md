@@ -1,3 +1,5 @@
+[![npm version](https://img.shields.io/npm/v/remutable-ts.svg)](https://www.npmjs.com/package/remutable-ts)
+
 # remutable-ts
 
 remutable-ts provides a simple and **type-safe** way to remove readonly
@@ -58,7 +60,7 @@ console.log("Original example:", example);
 console.log("Writable example before mutation:", writableExample);
 ```
 
-### 2. Using mutable(this) inside a class to get a writable view
+### 2. Using inside a class to get a writable view
 
 ```typescript
 // 
