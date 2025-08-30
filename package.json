@@ -1,0 +1,31 @@
+{
+	"name": "remutable-ts",
+	"version": "0.0.1",
+	"description": "TypeScript utility to safely bypass readonly at compile-time with zero runtime overhead.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsc",
+		"example": "npx ts-node example/index.ts"
+	},
+	"keywords": [
+		"typescript",
+		"utility",
+		"types",
+		"readonly",
+		"mutable"
+	],
+	"author": "FunderForge",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Funder75/remutable-ts"
+	},
+	"devDependencies": {
+		"@types/node": "^20.11.24",
+		"typescript": "^5.3.3"
+	}
+}

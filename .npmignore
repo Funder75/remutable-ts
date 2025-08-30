@@ -1,0 +1,21 @@
+# Source
+src/
+
+# Examples
+example/
+
+# Development files
+tsconfig.json
+.gitignore
+.git
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
